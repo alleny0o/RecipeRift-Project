@@ -394,7 +394,27 @@ body {
     height: auto; /* Ensure the image aspect ratio is maintained */
   }
 
-  /* Add similar adjustments for other elements as needed */
+  #generator-section form {
+    width: 90vw; /* Adjust the form width as needed */
+    max-width: none;
+    padding: 1em; /* Adjust the padding as needed */
+    height: auto;
+  }
+
+  #generator-section h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+  }
+
+  #generator-section label {
+    font-size: 14px; /* Adjust the font size as needed */
+    margin-bottom: 6px;
+  }
+
+  #generator-section input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px; /* Adjust the margin as needed */
+  }
 }
 
 
