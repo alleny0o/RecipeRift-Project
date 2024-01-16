@@ -362,6 +362,42 @@ body {
   
 }
 
+@media (max-width: 480px) {
+  .header-h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin-bottom: 5px; /* Adjust other styles as needed */
+  }
+
+  .nav-li a {
+    font-size: 12px; /* Adjust the font size as needed */
+    padding: 8px 5px; /* Adjust other styles as needed */
+    margin-left: 10px;
+  }
+
+  /* Add similar adjustments for other elements as needed */
+  
+  .daily-recipe-description-container h1 {
+    font-size: 2em; /* Adjust the font size as needed */
+  }
+
+  .daily-recipe-description-container p {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+
+  .button-one, .button-two {
+    font-size: 12px; /* Adjust the font size as needed */
+    padding: 5px; /* Adjust other styles as needed */
+  }
+
+  .daily-recipe-img-container img {
+    max-width: 200px; /* Make the image responsive */
+    height: auto; /* Ensure the image aspect ratio is maintained */
+  }
+
+  /* Add similar adjustments for other elements as needed */
+}
+
+
 .required {
   color: rgb(208, 5, 5);
 }
