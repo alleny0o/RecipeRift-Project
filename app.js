@@ -61,7 +61,7 @@ const selectRandomRecipe = async () => {
 
 };
 
-schedule.scheduleJob('0 0 * * *', () => {
+schedule.scheduleJob('* * * * *', () => {
   selectRandomRecipe();
   console.log('new recipe on the board!');
 });
